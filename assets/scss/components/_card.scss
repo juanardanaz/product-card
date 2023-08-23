@@ -1,0 +1,74 @@
+/* ========= CARD ========= */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    top: 110px;
+
+    &_data {
+        padding: 1.5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    &_product {
+        color: var(--dark-grayish-blue);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: var(--small-font-size);
+    }
+
+    &_title {
+        font-family: var(--secondary-font);
+        font-size: 1.7rem;
+        font-weight: var(--font-bold);
+
+        &:hover {
+            cursor: pointer;
+            color: var(--dark-cyan);
+        }
+    }
+
+    &_description {
+        color: var(--dark-grayish-blue);
+        font-size: var(--small-font-size);
+        line-height: 1.6;
+
+        &:hover {
+            cursor: pointer;
+            color: var(--very-dark-blue);
+        }
+    }
+
+    &_price_container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &_price {
+        font-family: var(--secondary-font);
+        color: var(--dark-cyan);
+
+        &:hover {
+            cursor: pointer;
+            color: var(--very-dark-blue);
+        }
+
+        &_old {
+            color: var(--dark-grayish-blue);
+            text-decoration: line-through;
+            font-size: var(--small-font-size);
+        }
+    }
+
+    &_button {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}
