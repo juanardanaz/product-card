@@ -1,0 +1,24 @@
+/* ========= FONT ========= */
+/* ========= VARIABLES CSS ========= */
+:root {
+  /* ========= COLORS ========= */
+  /* ========= Primary ========= */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  /* ========= Neutral ========= */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  /* ========= FONT and TYPOGRAPHY ========= */
+  --primary-font: "Bai Jamjuree";
+  --secondary-font: "Bai Jamjuree";
+  --bigest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 14px;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  /* ========= Font Weight ========= */
+  --font-semi-bold: 600;
+  --font-regular: 400;
+}
