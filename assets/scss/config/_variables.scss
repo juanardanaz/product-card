@@ -1,7 +1,30 @@
 /* ========= FONT ========= */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
-
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../fonts/Fraunces-Bold.woff2') format('woff2'),
+        url('../fonts/Fraunces-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* ========= VARIABLES CSS ========= */
 :root {
@@ -16,8 +39,8 @@
     --white: hsl(0, 0%, 100%);   
 
     /* ========= FONT and TYPOGRAPHY ========= */
-    --primary-font: 'Bai Jamjuree';
-    --secondary-font: 'Bai Jamjuree';
+    --primary-font: 'Montserrat';
+    --secondary-font: 'Fraunces';
     --bigest-font-size: 2rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
@@ -26,7 +49,8 @@
     --smaller-font-size: .75rem;
 
     /* ========= Font Weight ========= */
+    --font-medium: 500;
     --font-semi-bold: 600;
-    --font-regular: 400;
+    --font-bold: bold;
 
 }
