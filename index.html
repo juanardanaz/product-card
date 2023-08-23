@@ -7,32 +7,42 @@
     <meta name="description" 
     content="This is a landing page practise, for a company called Huddle">
     <!--=============== FAVICON ===============-->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
     <title>Frontend Mentor | Product preview card component</title>
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    Perfume
+    <div class="card_container container">
+        <article class="card">
+            <img src="./assets/img/image-product-mobile.jpg" alt="perfume" class="card_image">
 
-    Gabrielle Essence Eau De Parfum
+            <div class="card_data">
+                <p class="card_product">Perfume</p>
+                <h1 class="card_title">
+                    Gabrielle Essence Eau De Parfum
+                </h1>
+                <p class="card_description">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                    Perfumer-Creator for the House of CHANEL.
+                </p>
 
-    A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-    Perfumer-Creator for the House of CHANEL.
+                <div class="card_price_container">
+                    <h2 class="card_price">$149.99</h2>
+                    <h3 class="card_price_old">$169.99</h3>
+                </div>
 
-    $149.99
-    $169.99
-
-    Add to Cart
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+                <a href="#" class="button card_button">
+                    <img src="./assets/img/icon-cart.svg" alt="cart" class="card_button_icon">
+                    Add to Cart
+                </a>
+            </div>
+        </article>
     </div>
 
     <!--=============== SCROLL REVEAL ===============-->
     <script src=""></script>
     <!--=============== MAIN JS ===============-->
-    <script src=""></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
