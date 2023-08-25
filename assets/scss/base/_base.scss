@@ -28,6 +28,7 @@ img {
     padding: .95rem 3.8rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
+    transition: .4s;
 
     &:hover{
         cursor: pointer;

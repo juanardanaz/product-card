@@ -1,12 +1,20 @@
 /* ========= CARD ========= */
 .card {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     background-color: var(--white);
     border-radius: 0.5rem;
     overflow: hidden;
-    position: relative;
-    top: 110px;
+
+    &_container {
+        position: relative;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+
+    &_image_desktop {
+        display: none;
+    }
 
     &_data {
         padding: 1.5rem 1.5rem;
@@ -26,6 +34,7 @@
         font-family: var(--secondary-font);
         font-size: 1.7rem;
         font-weight: var(--font-bold);
+        transition: .4s;
 
         &:hover {
             cursor: pointer;
@@ -37,6 +46,7 @@
         color: var(--dark-grayish-blue);
         font-size: var(--small-font-size);
         line-height: 1.6;
+        transition: .4s;
 
         &:hover {
             cursor: pointer;
@@ -53,6 +63,7 @@
     &_price {
         font-family: var(--secondary-font);
         color: var(--dark-cyan);
+        transition: .4s;
 
         &:hover {
             cursor: pointer;
@@ -69,6 +80,7 @@
     &_button {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 0.8rem;
     }
 }
