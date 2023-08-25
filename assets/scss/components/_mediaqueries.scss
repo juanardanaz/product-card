@@ -38,3 +38,38 @@
     }
 }
 
+/* For Large Devices */
+@media screen and (min-width: 986px) {
+    .card {
+        width: 65%;
+        height: auto;
+        left: 140px;
+        top: 180px;
+        flex-direction: row;
+
+        &_image {
+            width: 300px;
+            height: auto;
+        }
+
+        &_title {
+            max-width: 11rem;
+        }
+
+        &_description {
+            font-size: var(--normal-font-size);
+            max-width: 15rem;
+        }
+    }
+
+    .button {
+        padding: 0.95rem 2.8rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 60%;
+        left: 370px;
+    }
+}
